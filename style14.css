@@ -1,0 +1,66 @@
+body{
+    background-color:rgba(0, 0, 0, 0.5);
+    
+}
+.cards{
+    width:1500px;
+    height:850px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+     flex-wrap:wrap;
+}
+
+.card{
+     background-color:white;
+    width:250px;
+    height:350px;
+    padding:10px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    
+}
+
+   
+
+.diamond-row{
+    display:flex;
+   flex-direction:column;
+    justify-content:center; gap:20px; font-size:60px; color:red;
+
+}
+
+.letter{
+    color:red;
+    font-size:30px;
+    margin:0;
+    display:flex;
+    gap:4px;
+    justify-content:flex-start;
+    flex-direction:column;
+
+}
+.reverse-letter,.reverse-number{
+     display:flex;
+    gap:4px;
+     align-self:flex-end;
+    flex-direction:column;
+    color:red;
+    font-size:30px;
+    margin:0;
+}
+.reverse-letter{
+     transform:scaley(-1);
+}
+.reverse-number{
+    transform:rotatez(180deg);
+
+}
+
+
+
+
+
+    
