@@ -28,7 +28,7 @@ body{
 .diamond-row{
     display:flex;
    flex-direction:column;
-    justify-content:center; gap:20px; font-size:60px; color:red;
+    justify-content:center; gap:17px; font-size:60px; color:red;
 
 }
 
